@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -18,7 +18,7 @@ export default function Header() {
               href="/"
               className=" mr-auto ml-4 p-0 hover:bg-black rounded transition-all"
             >
-              <img
+              <Image
                 alt="Logo"
                 src="https://i.ibb.co/1qDxjd5/image.png"
                 className="w-auto h-11"
@@ -74,7 +74,7 @@ export default function Header() {
               href="/"
               className="pr-1 hover:bg-black rounded transition-all"
             >
-              <img
+              <Image
                 alt="Logo"
                 src="https://i.ibb.co/1qDxjd5/image.png"
                 className="w-auto h-8"

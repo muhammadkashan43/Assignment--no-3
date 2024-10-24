@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Contact(){
     return(
         <section className="flex flex-col sm:flex-col lg:flex-row items-center gap-24 lg:gap-72 p-4 sm:gap-10 md:flex-row "> {/* Responsive flex layout */}
@@ -9,7 +11,7 @@ export default function Contact(){
            Email:kashanjaved123456789@gmail.com</p>
         </div>
         <div className="flex-shrink-0"> {/* Prevent shrinking of the image container */}
-          <img
+          <Image
             src="https://i.ibb.co/N3z8W8f/image1.jpg"
             alt="image1"
             height={300}
