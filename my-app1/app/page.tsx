@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import Image from 'next/image'; // Import the Next.js Image component
 export default function Home() {
   return (
     <section className="flex flex-col sm:flex-col lg:flex-row items-center gap-24 lg:gap-72 p-4 sm:gap-10 md:flex-row "> {/* Responsive flex layout */}

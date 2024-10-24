@@ -21,6 +21,8 @@ export default function Header() {
               <Image
                 alt="Logo"
                 src="https://i.ibb.co/1qDxjd5/image.png"
+                width={100}
+                height={100}
                 className="w-auto h-11"
               />
             </Link>
@@ -76,7 +78,9 @@ export default function Header() {
             >
               <Image
                 alt="Logo"
-                src="https://i.ibb.co/1qDxjd5/image.png"
+                src="https://i.ibb.co/1qDxjd5/image.png" 
+                width={100}
+                height={100}
                 className="w-auto h-8"
               />
             </Link>
